@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="medical:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/medical_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="medical/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="medical" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="gson-2.2.4.jar" module-name="medical" />
+          <element id="library" level="module" name="log4j-web-2.11.2.jar" module-name="medical" />
+          <element id="library" level="module" name="log4j-slf4j-impl-2.11.2.jar" module-name="medical" />
+          <element id="library" level="module" name="commons-codec-1.9.jar" module-name="medical" />
+          <element id="library" level="module" name="poi-3.12-20150511.jar" module-name="medical" />
+          <element id="library" level="module" name="fastjson-1.2.56.jar" module-name="medical" />
+          <element id="library" level="module" name="log4j-1.2.17.jar" module-name="medical" />
+          <element id="library" level="module" name="commons-fileupload.jar" module-name="medical" />
+          <element id="library" level="module" name="commons-io.jar" module-name="medical" />
+          <element id="library" level="module" name="commons-logging-1.1.3.jar" module-name="medical" />
+          <element id="library" level="module" name="log4j-api-2.11.2.jar" module-name="medical" />
+          <element id="library" level="module" name="log4j-core-2.11.2.jar" module-name="medical" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
